@@ -1,0 +1,324 @@
+.selected-side {
+    color: #FF8B03 !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+.subscriptionCard{
+    box-sizing: border-box;
+    border: none;
+    padding: none;
+background: #FFFFFF;
+border:  1.5px solid #D2DCFF;
+border-radius: 4px;
+}
+.subscriptionCardTitle{
+    /* position: absolute; */
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D2DCFF;
+    border-radius:  0px solid #D2DCFF;
+/* border-radius: 4px 5px 0px 0px solid #D2DCFF; */
+/* font-family: 'Inter'; */
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+
+/* identical to box height */
+
+color: #000000;
+    }
+.SubscriptionAmount{
+    
+
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+.SubscriptionPeriod{
+margin-top: -15px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+/* identical to box height */
+
+color: #000000;
+}
+.SubscriptionUserCount{
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+/* identical to box height */
+
+color: #000000;
+}
+.SubscriptionUserCountAdd{
+    font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* text-decoration-line: underline; */
+
+color: #000000;
+}
+.subscriptionPayBtn{
+width: 91px;
+height: 37px;
+border: 0;
+background: #5D5AF2;
+border-radius: 4px;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+}
+.avatar-2xl {
+    height: 9.5rem;
+    width: 9.5rem;
+}
+
+.avatar-md {
+    height: 4.5rem;
+    width: 4.5rem;
+}
+
+.mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important
+}
+
+.avatar-title {
+    background-size: cover;
+    background-position: center center;
+}
+
+.rounded-circle {
+    border-radius: 50% !important
+}
+
+.card-avatar {
+    background-color: #2A3042;
+}
+
+.font-size-16 {
+    font-size: 16px !important;
+}
+
+.text-center-div {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.text-size-avatr {
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+}
+
+.card-text-name {
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    color: #000000;
+}
+
+.card-text-email {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    display: block;
+}
+
+.btn-profile {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+    width: 118px;
+    height: 37px;
+    font-size: 12px;
+    background-color: #5D5AF2;
+    color: white;
+    border-color: #5D5AF2;
+
+}
+
+.btn-profile:hover {
+    background-color: #5D5AF2;
+    color: white;
+    border-color: #5D5AF2;
+}
+
+.card-text-total {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: #2A3042;
+}
+
+.card-text-count {
+    font-size: 14px;
+    margin-top: 7px !important;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: #000000;
+}
+
+.btn-customer {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 153px;
+height: 42px;
+    float: right;
+    border-radius: 4px;
+    width: auto;
+    font-size: 12px;
+    background-color: #FF8B03;
+    color: white;
+    border-color: #FF8B03;
+}
+
+.btn-customer:hover {
+    background-color: #FF8B03;
+    color: white;
+    border-color: #FF8B03;
+}
+
+.btn-save {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    float: right;
+    border-radius: 4px;
+    width: auto;
+    font-size: 12px;
+    background-color: #5D5AF2;
+    color: white;
+    border-color: #5D5AF2;
+}
+
+.btn-save:hover {
+    background-color: #5D5AF2;
+    color: white;
+    border-color: #5D5AF2;
+}
+
+.text-right {
+    text-align: end !important;
+    padding-left: 75px;
+}
+
+.input-search {
+    border-radius: 20px !important;
+    width: 270px;
+    font-size: 14px;
+    float: right;
+    background-color: #EEEEEE;
+    border-color: #EEEEEE;
+    margin-right: 30px !important;
+    color: #2A3042;
+}
+
+.card-text-plan {
+    font-size: 14px;
+    margin-top: 7px !important;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: #04AC6F;
+}
+
+.buttonGroup {
+    display: flex !important;
+    padding: 4px 14px;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+
+.updateBtn {
+    padding: 1px;
+    margin: 2px;
+    padding: 4px 14px;
+    background: #5D5AF2;
+    border-color: #5D5AF2;
+    color: #FFFFFF;
+}
+
+.updateBtn:hover {
+    background-color: #5D5AF2;
+    color: white;
+    border-color: #5D5AF2;
+}
+
+.deleteBtn {
+    padding: 1px;
+    margin: 2px;
+    padding: 4px 14px;
+    background: #CB0B50;
+    border-color: #CB0B50;
+    color: #FFFFFF;
+}
+
+.deleteBtn:hover {
+    background-color: #CB0B50;
+    color: white;
+    border-color: #CB0B50;
+}
+
+.tbHead {
+    background-color: #D2DCFF;
+    color: #000000;
+}
+
+.textRight {
+    text-align: end !important;
+    padding-left: 75px;
+}
+
+.newSign {
+    color: #000000;
+    font-size: 14px;
+}
+.signup-box {
+    /* max-width: 144px; */
+    width: 60%;
+    padding: 40px 20px;
+    margin: 5px auto;
+}
+.signupBtn{
+    width: auto;
+}

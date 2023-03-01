@@ -1,0 +1,4 @@
+export const environment = {
+    api_url: "https://pencilmydeal-api.efito.xyz",
+    app_url: "https://pencilmydeal.efito.xyz"
+};
